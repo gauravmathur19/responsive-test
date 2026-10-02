@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f4f7f4">
+  <title>BlueLoft Dashboard Comparison</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page-shell">
+    <header class="topbar">
+      <span class="wordmark">BlueLoft<span>.</span></span>
+      <span class="topbar-note">IMAGE COMPARISON</span>
+    </header>
+
+    <section class="workspace" aria-labelledby="page-title">
+      <div class="intro">
+        <div>
+          <p class="eyebrow"><span></span> Design comparison</p>
+          <h1 id="page-title">Compare the <em>redesign.</em></h1>
+        </div>
+        <p class="intro-copy">Drag across the dashboard to compare the earlier and updated visual design.</p>
+      </div>
+
+      <div class="comparison-panel">
+        <image-comparison
+          before="Visuals%20-%20before.png"
+          after="Visuals%20-%20after.png"
+          alt="Updated BlueLoft Technologies cash dashboard with a blue accent theme"
+          aria-label="Image comparison: move to reveal the before and after"
+        ></image-comparison>
+      </div>
+    </section>
+
+    <footer class="page-footer">
+      <span>BLUELOFT DASHBOARD</span>
+      <span>MOVE THE SLIDER TO COMPARE</span>
+    </footer>
+  </main>
+
+  <script src="image-comparison.js"></script>
+</body>
+</html>
